@@ -53,7 +53,7 @@ export default function About() {
             </p>
 
             <div className='md:flex-row md:justify-between md:items-center'>
-              <div>
+              <div className='lg:flex-1 2xl:flex-none'>
                 <p>⭐⭐⭐⭐<TiStarHalfOutline className='inline text-amber-500  size-6 mb-1' /></p>
                 <p className='md:text-3xl text-xl font-bold'>
                   <span>4.5</span>/5
@@ -65,8 +65,8 @@ export default function About() {
 
               <span className='bg-gray-800 w-0.5 h-18 hidden md:block' />
 
-              <div className='bg-linear-to-t from-slate-950 via-slate-800 to-slate-700 
-                rounded-4xl p-4 pl-8 w-38 mt-5 md:mt-0'
+              <div className='bg-linear-to-t from-neutral-900 via-slate-800 to-emerald-900 
+                rounded-4xl p-4 pl-8 w-38 mt-4 md:mt-0'
               >
                 <div className='flex-row justify-between items-center gap-2.5'>
                   {profileLists.map((imgSrc, index) => (
