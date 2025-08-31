@@ -279,7 +279,7 @@ button {
         @apply opacity-0 md:px-0 px-5 space-y-2 absolute md:bottom-0 bottom-52 left-1/2 -translate-x-1/2;
 
         h3 {
-          @apply md:text-[46px] text-2xl text-center font-serif md:w-full w-80 text-white;
+          @apply md:text-[45px] text-2xl text-center font-serif md:w-full w-80 text-white;
         }
 
         p {

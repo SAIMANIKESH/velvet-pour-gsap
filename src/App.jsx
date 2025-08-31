@@ -2,7 +2,7 @@ import React from 'react';
 import gsap from 'gsap';
 import { ScrollTrigger, SplitText } from 'gsap/all';
 
-import { Navbar, Hero, Cocktails, About, Art } from './components';
+import { Navbar, Hero, Cocktails, About, Art, Menu, Contact } from './components';
 
 gsap.registerPlugin(ScrollTrigger, SplitText);
 
@@ -15,7 +15,9 @@ export default function App() {
       <Cocktails />
       <About />
       <Art />
-      <div className='h-screen' />
+      <Menu />
+      {/* <Contact />
+      {/* <div className='h-screen' /> */}
     </main>
   )
 }
