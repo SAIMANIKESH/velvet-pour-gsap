@@ -69,7 +69,7 @@ export default function Menu () {
           <button className='text-left' 
             onClick={() => goToSlide(currentIndex - 1)} 
             aria-label='Previous Cocktail'
-            title='Previous Cocktail'
+            title='View Previous'
           >
             <span>{prevCocktail.name}</span>
             <img src='/images/right-arrow.png' alt='right-arrow' aria-hidden='true' />
@@ -78,7 +78,7 @@ export default function Menu () {
           <button className='text-left' 
             onClick={() => goToSlide(currentIndex + 1)} 
             aria-label='Next Cocktail'
-            title='Next Cocktail'
+            title='View Next'
           >
             <span>{nextCocktail.name}</span>
             <img src='/images/left-arrow.png' alt='left-arrow' aria-hidden='true' />
@@ -91,7 +91,7 @@ export default function Menu () {
 
         <div className='recipe'>
           <div className='info' ref={contentRef}>
-            <p>Recipe for :-</p>
+            <p>Recipe for :</p>
             <p id='title'>{currentCocktail.name}</p>
           </div>
 

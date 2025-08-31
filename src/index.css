@@ -368,15 +368,15 @@ button {
       @apply absolute top-0 right-0 pointer-events-none hidden lg:block;
     }
 
-    .content {
-      @apply container mx-auto lg:py-14 2xl:py-32 py-16 flex flex-col justify-between gap-10 min-h-dvh;
-
-      h2 {
-        @apply lg:text-6xl 2xl:text-8xl text-5xl font-modern-negra md:translate-y-0 translate-y-5;
+    h2 {
+        @apply lg:text-6xl 2xl:text-8xl text-5xl font-modern-negra md:translate-y-0 translate-y-5 lg:pt-14 2xl:pt-20 pt-20 pb-10;
       }
 
+    .content {
+      @apply container mx-auto flex flex-col justify-between gap-2.5 mb-10 xl:mb-15;
+
       h3 {
-        @apply uppercase xl:text-base 2xl:text-lg text-base mb-2;
+        @apply uppercase xl:text-base 2xl:text-lg text-base text-yellow;
       }
 
       p {

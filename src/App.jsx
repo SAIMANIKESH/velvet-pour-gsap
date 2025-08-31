@@ -16,7 +16,7 @@ export default function App() {
       <About />
       <Art />
       <Menu />
-      {/* <Contact />
+      <Contact />
       {/* <div className='h-screen' /> */}
     </main>
   )
