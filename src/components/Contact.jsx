@@ -73,6 +73,8 @@ export default function Contact () {
             </a>
           ))}
         </div>
+
+        <p className='pt-3.5'>&#169;{new Date().getFullYear()} Velvet Pour. All rights reserved.</p>
       </div>
     </footer>
   )
